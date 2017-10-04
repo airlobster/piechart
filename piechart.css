@@ -1,0 +1,33 @@
+
+.chart {
+	padding: 5px;
+}
+.legend {
+	min-height: 2em;
+	color: gray;
+	overflow-y: auto;
+/*	font-size: 90%; */
+}
+.legend span:nth-child(1) {
+	display: inline-block;
+	width: 0.8em;
+	height: 0.8em;
+	border-radius: 50%;
+	margin-right: 0.3em;
+}
+.legend ul {
+	width: 100%;
+	list-style-type: none;
+/*	font-size: 80%; */
+	font-style: italic;
+}
+.legend li {
+	display: inline-block;
+	padding: 2px 4px;
+	width: 100%;
+}
+.legend li.selected {
+	border-radius: 5px;
+	background-color: #666;
+	color: white;
+}
